@@ -1,0 +1,85 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+:root{
+    --White: hsl(0, 0%, 100%);
+    --Lightgray: hsl(212, 45%, 89%);
+    --Grayishblue: hsl(220, 15%, 55%);
+    --Darkblue: hsl(218, 44%, 22%);
+}
+body p{
+    font-size: 14px;   
+}
+body{
+    background-color: var(--Grayishblue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.Code{
+    background-color: var(--White);
+    display: flex;
+    height: 65vh;
+    width: 45vh;
+    flex-direction: column;
+    margin-top: 10vh;
+    border-radius: 20px;
+    
+}
+.Code img{
+        width:270px;
+        height: 270px; 
+        margin-top: 5% ;
+        margin-left:8%;
+        margin-right:10%;
+        border-radius: 20px;
+}
+.p1{
+    display: flex;
+    justify-content: center;
+    color:var(--Darkblue) ;
+    margin-top: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 200; 
+    font-size: 20px;
+}
+.p2{
+    display: flex;
+    justify-content: center;
+    color:var(--Darkblue) ;
+    margin-top: 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 200; 
+    font-size: 20px;
+}
+.p3{
+    display: flex;
+    justify-content: center;
+    color:var(--Grayishblue) ;
+    margin-top: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:normal; 
+    font-size: 15px;
+}
+.p4{
+    display: flex;
+    justify-content: center;
+    color:var(--Grayishblue) ;
+    margin-top: 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:normal; 
+    font-size: 15px;
+}
+.p5{
+    display: flex;
+    justify-content: center;
+    color:var(--Grayishblue) ;
+    margin-top: 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:normal; 
+    font-size: 15px;
+}

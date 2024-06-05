@@ -1,0 +1,102 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+:root{
+    --Paleblue: hsl(225, 100%, 94%);
+    --Brightblue: hsl(245, 75%, 52%);
+    --Verypaleblue: hsl(225, 100%, 98%);
+    --Desaturatedblue: hsl(224, 23%, 55%);
+    --Darkblue: hsl(223, 47%, 23%);
+}
+body p{
+    font-size: 16px;   
+}
+body{
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-color: var(--Paleblue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+body img{
+    margin-top: 10vh;
+    border-radius: 10px 10px 0 0;
+}
+.page{
+    display: flex;
+    height: 80vh;
+    width: 45vh;
+    background-color:var(--Verypaleblue);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10vh;
+    border-radius: 20px;
+    justify-content: space-between;
+    border-radius: 0 0 10px 10px;
+}
+
+.Buttons{
+    display: flex;
+    flex-direction: column;
+}
+.b2{
+    background-color: var(--Brightblue);
+    margin: 5px 20px 0px 20px;;
+    color: var(--Verypaleblue);
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    
+}
+.b{
+    display: flex;
+
+}
+.p{
+    display: block;
+
+}
+
+.b1{
+    background-color: var(--Paleblue);
+    margin: 5px 20px 0px 20px;;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.b2:hover{
+    background-color: var(--Desaturatedblue);
+}
+.b3{
+    background-color: var(--Verypaleblue);
+    margin: 5px 20px 0px 20px;;
+    color: var(--Desaturatedblue);
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.b3:hover{
+    color: var(--Darkblue);
+}
+.page h3{
+    display: flex;
+    justify-content: center;
+    color:var(--Darkblue) ; 
+    margin-top: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:50; 
+}
+.page p{
+    font-weight: normal;
+    color: var(--Desaturatedblue);
+}
